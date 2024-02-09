@@ -12,7 +12,7 @@ body {
 .footer-container {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 10px 48px;
+    /* padding: 10px 48px; */
 }
 
 .header {
@@ -20,12 +20,14 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 0 16px;
+    border: 1px solid blue; /*debugging*/
 }
 
 .header-logo {
     font-size: 24px;
     font-weight: bold;
     flex-shrink: 0;
+    border: 1px solid blue; /*debugging*/
 }
 
 a {
@@ -48,10 +50,14 @@ a {
 .hero-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 0 16px;
+    border: 1px solid lightblue; /*debugging*/
 }
 
 .hero {
     display: flex;
+    justify-content: space-around;
     padding: 16px;
 }
 
@@ -59,7 +65,10 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: space-around;
+    width: 500px;
+    height: 200px;
+    border: 1px solid red; /*debugging*/
 }
 
 .hero-title {
@@ -79,4 +88,9 @@ a {
 
 .hero-image {
     display: flex;
+    justify-content: center;
+    background-color: #eeeeee45;
+    align-items: center;
+    width: 500px;
+    height: 200px;
 }
